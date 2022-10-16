@@ -5,13 +5,14 @@ import './index.css';
 //import Hello from './components/Hello';
 //import Name from './components/Name';
 //import Message from './components/Message';
-import Parent from './components/ContainerSample';
+//import Parent from './components/ContainerSample';
+import Page from './components/ContextSample';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById('root');
 if (container) {
   const root = createRoot(container);
-  root.render(<Parent />);
+  root.render(<Page />);
 }
 
 // If you want to start measuring performance in your app, pass a function
