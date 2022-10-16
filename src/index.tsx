@@ -7,7 +7,8 @@ import './index.css';
 //import Message from './components/Message';
 //import Parent from './components/ContainerSample';
 //import Page from './components/ContextSample';
-import Counter from './components/CounterUseState';
+//import Counter from './components/CounterUseState';
+import Counter from './components/CounterUseReducer';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById('root');
