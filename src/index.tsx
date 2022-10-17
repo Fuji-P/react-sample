@@ -8,13 +8,14 @@ import './index.css';
 //import Parent from './components/ContainerSample';
 //import Page from './components/ContextSample';
 //import Counter from './components/CounterUseState';
-import Counter from './components/CounterUseReducer';
+//import Counter from './components/CounterUseReducer';
+import { Parent } from './components/Parent';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById('root');
 if (container) {
   const root = createRoot(container);
-  root.render(<Counter initialValue={0} />);
+  root.render(<Parent />);
 }
 
 // If you want to start measuring performance in your app, pass a function
