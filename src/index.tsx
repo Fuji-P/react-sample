@@ -11,13 +11,14 @@ import './index.css';
 //import Counter from './components/CounterUseReducer';
 //import { Parent } from './components/Parent';
 //import { UseMemoSample } from './components/UseMemoSample';
-import { Clock } from './components/Clock';
+//import { Clock } from './components/Clock';
+import Parent from './components/UseContext';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById('root');
 if (container) {
   const root = createRoot(container);
-  root.render(<Clock />);
+  root.render(<Parent />);
 }
 
 // If you want to start measuring performance in your app, pass a function
