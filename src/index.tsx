@@ -13,13 +13,14 @@ import './index.css';
 //import { UseMemoSample } from './components/UseMemoSample';
 //import { Clock } from './components/Clock';
 //import Parent from './components/UseContext';
-import ImageUploader from './components/UseRef';
+//import ImageUploader from './components/UseRef';
+import Parent from './components/UseImperativeHandle';
 import reportWebVitals from './reportWebVitals';
 
 const container = document.getElementById('root');
 if (container) {
   const root = createRoot(container);
-  root.render(<ImageUploader />);
+  root.render(<Parent />);
 }
 
 // If you want to start measuring performance in your app, pass a function
